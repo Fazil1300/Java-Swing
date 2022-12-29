@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 class frame{
     public static void main(String[] args) {
         ImageIcon icon=new ImageIcon("computer.png");//create icon
-
+        //JFrame-a GUI window to add components
         JFrame frame=new JFrame();//creates frame
         frame.setVisible(true);//set frame visible
         frame.setSize(500,500);//sets frame size
