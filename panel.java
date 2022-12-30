@@ -54,7 +54,7 @@ public class panel {
         frame.add(greenPanel);
 }
 }
-/*From this I learned what is Panel? and how to implment that?
+/*From this I learned what is JPanel? and how to implment that?
 then add the component(label) to the  panel.
 and learnt how to set layout in panel wherever I want
 STEPS TO MOVE LABEL IN A CONTAINNER
