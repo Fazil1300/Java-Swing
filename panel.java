@@ -59,5 +59,5 @@ then add the component(label) to the  panel.
 and learnt how to set layout in panel wherever I want
 STEPS TO MOVE LABEL IN A CONTAINNER
     1)set layout -> null then move the label within the panel by setHorizontalTextPosition,setVerticalAlignment
-    2)make panel layout -> new BorderLayout() then set the bounds of the label,this will help to move the label wherever you want 
+    2)make panel layout -> new BorderLayout() then set the bounds of the label,this will help to move the label wherever you want :)
  */
