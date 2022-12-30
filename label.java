@@ -24,7 +24,7 @@ public class label {
         label.setIconTextGap(0);//Sets gap between text and image
         label.setBackground(Color.black);//change background of label
         label.setOpaque(true);//make background color visible
-        label.setBorder(border);
+        label.setBorder(border);//set border for layout
         label.setVerticalAlignment(JLabel.CENTER);//set vertical positon text+image within label
         label.setHorizontalAlignment(JLabel.CENTER);//set horizontal text+image within label
         label.setBounds(100, 100, 250, 250);//set label whereever you want within frame->make layoutManager to null 
@@ -36,10 +36,14 @@ public class label {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setBackground(new Color(124,50,250));
         frame.setResizable(false);
-        frame.setLayout(null);//make layout manager to null->for bounds
-        //frame.pack();//resize the frame to accomodate all the components we have
+        frame.setLayout(null);
+        //frame.pack();
         
         frame.add(label);//adds label to frame
     }
 }
-//Set the setResizeable,setLayout,setBounds to comment for pack methods 
+/*From this I learnt What is JLabel? and How to implemnet ?
+*I created a label with some properties
+*By default label is borderLayout,It makes a label to full frame->for that frame layout to null
+*frame.pack()->It will accomate a frame with the components we have for that avoid the frame.setSize->  
+*/
