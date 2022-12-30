@@ -18,3 +18,6 @@ class frame{
         frame.getContentPane().setBackground(new Color(124,50,250));//change background color of frame
     }
 }
+/*From this I learnt What is JFrame? and How to Implement?
+ I created a basic window and set some properties like visible,size,DefaultCloseOperation,Title,Resizeability,Icon and finally set background color for the frame 
+ */
